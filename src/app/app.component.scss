@@ -1,0 +1,20 @@
+.layout {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #262425;
+  padding: 6px;
+  flex-direction: column;
+
+  .display {
+    width: 356px;
+    margin-bottom: 12px;
+  }
+
+  .calculator {
+    display: grid;
+    gap: 12px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}
