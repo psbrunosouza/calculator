@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { CalculatorActionButtonComponent } from './calculator-action-button/calculator-action-button.component';
 import { CalculatorDisplayComponent } from './calculator-display/calculator-display.component';
 import {FormsModule} from "@angular/forms";
+import {MinimalUiModule} from "@minimal-ui-design/angular/dist";
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import {FormsModule} from "@angular/forms";
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FormsModule
+    FormsModule,
+    MinimalUiModule
   ],
   providers: [],
   bootstrap: [AppComponent]
